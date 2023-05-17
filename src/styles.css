@@ -10,3 +10,5 @@ h1,h2,h3,h4,h5,a,p{
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(14, 184, 226)
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

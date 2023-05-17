@@ -12,32 +12,34 @@ body{
 .card{
     width: 270px;
     margin: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .card-image{
-    height: 150px;
+    height: 240px;
     margin-bottom: 15px;
     background-size: cover;
 }
 
 .card-1{
-    background-image: url(../../../assets/photos/home.mujeres.jpg);
+    background-image: url(../../../assets/photos/ipa.jpg);
 }
 .card-2{
-    background-image: url(../../../assets/photos/home.mujeres.jpg);
+    background-image: url(../../../assets/photos/porter.jpg);
 }
 .card-3{
-    background-image: url(../../../assets/photos/home.mujeres.jpg);
+    background-image: url(../../../assets/photos/scotish.jpg);
 }
 .card-4{
-    background-image: url(../../../assets/photos/home.mujeres.jpg);
+    background-image: url(../../../assets/photos/rubia.jpg);
 }
 .card-5{
-    background-image: url(../../../assets/photos/home.mujeres.jpg);
+    background-image: url(../../../assets/photos/rubia.jpg);
+
 }
 .card-6{
-    background-image: url(../../../assets/photos/home.mujeres.jpg);
+    background-image: url(../../../assets/photos/ginTonic.jpg);
+
 }
 
 .card h2{
@@ -47,8 +49,6 @@ body{
 .card p{
     padding: 10px;
 }
-
-
 .card:hover{
     background-color: rgb(62, 62, 62);
     cursor: pointer;

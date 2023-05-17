@@ -6,6 +6,7 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { CervezasComponent } from '../components/cervezas/cervezas.component';
 import { BebidasComponent } from './bebidas/bebidas.component';
 import { CaffeComponent } from '../components/cafe/caffe.component';
+import { FooterComponent } from '../components/footer/footer.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { CaffeComponent } from '../components/cafe/caffe.component';
     NosotrosComponent,
     CervezasComponent,
     CaffeComponent,
-    BebidasComponent
+    BebidasComponent,
+    FooterComponent
     
   ],
   imports: [
