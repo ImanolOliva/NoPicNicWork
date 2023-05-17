@@ -1,0 +1,21 @@
+
+nav{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 70px;
+    background-color: black ;
+    border-bottom: 1px solid  rgb(156, 82, 150);
+}
+
+a{    
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1em;
+    color: rgb(14, 184, 226);
+    font-family: 'Roboto Mono', monospace;
+}
+a:hover{
+    color: rgb(156, 82, 150)
+}

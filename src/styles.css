@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    background-color: black;
+}
+h1,h2,h3,h4,h5,a,p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(14, 184, 226)
+}
