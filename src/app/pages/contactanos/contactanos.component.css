@@ -1,0 +1,27 @@
+
+.form{
+    border: 1px solid  rgb(156, 82, 150);;
+    border-radius: 15px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.mb-3{
+    color: rgb(14, 184, 226);
+    background-color: black;
+}
+
+input,textarea,label{
+    background-color:black;
+}
+
+input,textarea{
+    border: 1px solid  rgb(156, 82, 150);
+}
+button{
+    color:rgb(165, 158, 148);
+}

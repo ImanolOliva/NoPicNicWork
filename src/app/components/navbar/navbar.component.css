@@ -4,11 +4,13 @@ nav{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    height: 70px;
+    height: 90px;
     background-color: black ;
     border-bottom: 1px solid  rgb(156, 82, 150);
 }
-
+    img{
+    width: 120px;
+        }
 a{    
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,3 +21,10 @@ a{
 a:hover{
     color: rgb(156, 82, 150)
 }
+
+
+
+.sub img{
+    width: 30px;
+    height: 30px;
+  }

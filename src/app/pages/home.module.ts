@@ -7,6 +7,9 @@ import { CervezasComponent } from '../components/cervezas/cervezas.component';
 import { BebidasComponent } from './bebidas/bebidas.component';
 import { CaffeComponent } from '../components/cafe/caffe.component';
 import { FooterComponent } from '../components/footer/footer.component';
+import { MatRadioModule} from '@angular/material/radio';
+import { ContactanosComponent } from './contactanos/contactanos.component'
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -16,12 +19,15 @@ import { FooterComponent } from '../components/footer/footer.component';
     CervezasComponent,
     CaffeComponent,
     BebidasComponent,
-    FooterComponent
+    FooterComponent,
+    ContactanosComponent
     
   ],
   imports: [
     CommonModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    MatRadioModule,
+    ReactiveFormsModule
   ]
 })
 export class HomeModule { }

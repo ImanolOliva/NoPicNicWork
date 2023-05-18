@@ -5,6 +5,7 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { CervezasComponent } from './components/cervezas/cervezas.component';
 import { CaffeComponent } from './components/cafe/caffe.component';
 import { GinComponent } from './components/gin/gin.component';
+import { ContactanosComponent } from './pages/contactanos/contactanos.component';
 
 const routes: Routes = [
 
@@ -13,7 +14,7 @@ const routes: Routes = [
   {path: 'cafe', component:CaffeComponent},
   {path:'gin', component:GinComponent},
   {path:'home' , component:HomeComponent},
-  {path:'' , redirectTo:'home', pathMatch:'full'}
+  {path:'contacto',component:ContactanosComponent}
 ];
 
 @NgModule({
