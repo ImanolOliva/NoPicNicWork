@@ -11,6 +11,11 @@ export class ContactanosComponent {
   form: any;
 
 
+  show: boolean= false;
+
+  redireccion(){
+    
+  }
 
   save(): void {
     alert("Gracias por tu mensaje. Estaremos respondiendote a la brevedad!")

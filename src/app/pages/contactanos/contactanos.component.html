@@ -1,30 +1,37 @@
 <br>
 <br>
+<div class="tot">
+  <h1 style="text-align: center" class="animate__animated animate__zoomIn">COMUNICATE CON NOSOTROS</h1>
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-12 col-sm-12 col-md-10 col-lg-6">
-          <form [formGroup]="form" class="form">
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="nombre" formControlName="nombre">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" formControlName="email">
-            </div>
-            <div class="mb-3">
-                <label for="msg" class="form-label">Mensaje</label>
-                <textarea id="msg" class="form-control" formControlName="mensaje"></textarea>
-            </div>
-            <div class="buttons">
-              <button type="submit" (click)="save()" class="btn btn-info">Enviar</button>
-            </div>
-          </form>
-        </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.784310765211!2d-58.42938742486292!3d-34.73583076448635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccdccacbd0691%3A0xd727d52836c7a364!2sNo%20picnic!5e0!3m2!1ses!2sar!4v1684377485737!5m2!1ses!2sar" width="840" height="540" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-
 </div>
+<br>
+<br>
+<div class="sub-container">
+  <section class="llamanos">
+    <H1>CONTACTO</H1>
+    <button class="btn btn-info" (click)="show=!show">ESCRIBINOS</button>
+    <a class="mostrar"  *ngIf="show" href="htpps://wa.me/+541132305970" target="_blank">NUESTRO WHATSAPP!</a>
+  </section>
+  <section class="direccion">
+    <H1>DIRECCION</H1>
+    <button class="btn btn-info">COMO LLEGAR</button>
+    <p>Mayor Olivero 1892 <br>
+      Banfield, Villa Centenario
+    </p>
+  </section>
+  <section>
+    <H1>HORARIOS</H1>
+    <app-horario-atencion></app-horario-atencion>
+  </section>
+</div>
+<section class="redes">
+  <a href="https://www.instagram.com/nopicnic.bar/" target="_blank"><img src="../../../assets/photos/ig.webp" alt="ig"></a>
+  <a href="https://www.instagram.com/nopicnic.bar/" target="_blank"><img src="../../../assets/photos/ig.webp" alt="ig"></a>
+  <a href="https://www.instagram.com/nopicnic.bar/" target="_blank"><img src="../../../assets/photos/ig.webp" alt="ig"></a>
+</section>
 <app-footer></app-footer>
-
-
+</div>
 
 
 

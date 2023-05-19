@@ -5,11 +5,11 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { CervezasComponent } from '../components/cervezas/cervezas.component';
 import { BebidasComponent } from './bebidas/bebidas.component';
-import { CaffeComponent } from '../components/cafe/caffe.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { MatRadioModule} from '@angular/material/radio';
 import { ContactanosComponent } from './contactanos/contactanos.component'
 import { ReactiveFormsModule } from '@angular/forms';
+import { HorarioAtencionComponent } from '../components/horario-atencion/horario-atencion.component';
 
 
 @NgModule({
@@ -17,10 +17,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     NosotrosComponent,
     CervezasComponent,
-    CaffeComponent,
     BebidasComponent,
     FooterComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    HorarioAtencionComponent
     
   ],
   imports: [

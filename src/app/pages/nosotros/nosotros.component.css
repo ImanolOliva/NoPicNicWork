@@ -1,14 +1,13 @@
 *{
   margin:0;
   padding:0;
+
   
 }
 
 .slider-frame{
-  width:340px;
-  height: auto;
+  width:940px;
   margin: 50px auto 0;
-
   overflow: hidden;
 
 }
@@ -27,7 +26,8 @@
 }
 
 .slider-frame img{
-  width: 100%;
+  width: 100%
+  
 }
 
   @keyframes slide{
@@ -44,8 +44,26 @@
     95%{margin-left: -300%;}
   }
 
-  .container {
+  .container{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+
+  }
+
+  .encabezado{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    margin: 1rem;
+    align-items: center;
+  }
+
+
+  .encabezado h1{
+    font-size: 3rem;
+  }
+  .encabezado p{
+    font-size: 1rem;
+    margin: 15px;
+    text-align: center;
   }

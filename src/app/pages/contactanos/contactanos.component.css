@@ -1,27 +1,37 @@
+*{
+        box-sizing: border-box;
+        flex-wrap: wrap;  
+}
 
-.form{
-    border: 1px solid  rgb(156, 82, 150);;
-    border-radius: 15px;
-    padding: 15px;
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.espacio{
+    padding: 100px;
+}
+.direccion p{
+    padding: 6px;
+}
+.mostrar{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.redes img{
+    width: 60px;
+    height:60px;
+    padding:0px;
+}
+.redes{
+
+    display: flex;
     justify-content: center;
-}
-
-.buttons{
-    text-align: center;
-}
-
-.mb-3{
-    color: rgb(14, 184, 226);
-    background-color: black;
-}
-
-input,textarea,label{
-    background-color:black;
-}
-
-input,textarea{
-    border: 1px solid  rgb(156, 82, 150);
-}
-button{
-    color:rgb(165, 158, 148);
+    flex-wrap: wrap;
 }
