@@ -10,7 +10,11 @@
 .sub-container{
     display: flex;
     justify-content: space-around;
+    padding: 15px;
 
+}
+.llamanos p{
+    padding: 6px;
 }
 .espacio{
     padding: 100px;

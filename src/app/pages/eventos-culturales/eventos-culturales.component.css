@@ -1,0 +1,29 @@
+.total{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    padding: 35px;
+}
+.container img{
+    width:300px;
+    height:300px;
+}
+.sub-container{
+    justify-content: center;
+    padding: 35px;
+    display: flex;
+}
+.sub-container img{
+    width: 300px;
+    height: 300px;
+}
+
+.carousel-caption h3 , p{
+    font-size: 2rem;
+    color: black;
+}

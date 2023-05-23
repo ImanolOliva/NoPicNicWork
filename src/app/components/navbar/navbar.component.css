@@ -1,9 +1,9 @@
 .contenedor{  
         box-sizing: border-box;
-        flex-wrap:wrap-reverse;
+        flex-wrap: wrap;
 }
 nav{
-    padding: 0px;
+    padding: 3px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,12 +11,13 @@ nav{
     background-color: black ;
     border-bottom: 1px solid  rgb(156, 82, 150);
     flex-wrap: wrap;
-    
 }
-    img{
+nav a img{
     width: 120px;
-    flex-wrap: wrap;
-        }
+}
+a:hover{
+    color: rgb(156, 82, 150)
+}
 a{    
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
