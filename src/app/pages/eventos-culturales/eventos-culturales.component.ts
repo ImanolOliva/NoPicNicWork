@@ -11,7 +11,7 @@ import { EventosCulturales } from 'src/app/model/EventosCulturales';
 })
 export class EventosCulturalesComponent implements OnInit {
 
-	feria1: any[] = [
+	feria1: EventosCulturales[] = [
 		{
 			nombre:'FECHA 18/04/17',
 			img: '../../../assets/slider/slider2.jpg',
@@ -19,15 +19,21 @@ export class EventosCulturalesComponent implements OnInit {
 		},
 		{
 			img: '../../../assets/slider/slider1.jpg',
+			nombre: '',
+			text:''
 		},
 		{
 			img: '../../../assets/slider/slider3.jpg',
+			nombre: '',
+			text:''
 		},			
 		{
 			img: '../../../assets/slider/slider4.jpg',
+			nombre: '',
+			text:''
 		},			
 	]
-	feria2: any[] = [
+	feria2: EventosCulturales[] = [
 		{
 			nombre:'FECHA NO PICNIC',
 			img: '../../../assets/slider/slider2.jpg',
@@ -35,12 +41,18 @@ export class EventosCulturalesComponent implements OnInit {
 		},
 		{
 			img: '../../../assets/slider/slider1.jpg',
+			nombre: '',
+			text:''
 		},
 		{
 			img: '../../../assets/slider/slider3.jpg',
+			nombre: '',
+			text:''
 		},			
 		{
 			img: '../../../assets/slider/slider4.jpg',
+			nombre: '',
+			text:''
 		},			
 	]
 
