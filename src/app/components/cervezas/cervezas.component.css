@@ -51,12 +51,13 @@ body{
 .card p{
     padding: 10px;
 }
-.card:hover{
-    background-color: rgb(62, 62, 62);
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: all 1s ease;
-}
+    .card:hover {
+        background-color: rgb(62, 62, 62);
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: all 1s ease;
+    }
+
 .espacio{
     padding: 8px;
 }

@@ -2,12 +2,19 @@
 
 *{
     box-sizing: border-box;
+ 
+      
 }
+@font-face {
+    font-family: 'CallimathyDemo';
+    src: url('assets/fonts/CallimathyDemo-BWyZd.otf') format('truetype');
+  }
 html,body{
     background-color: black;
 }
+
 h1,h2,h3,h4,h5,a,p,li{
-    font-family: 'Josefin Sans', sans-serif;
+
     color: rgb(14, 184, 226)
 }
 html, body { height: 100%; }

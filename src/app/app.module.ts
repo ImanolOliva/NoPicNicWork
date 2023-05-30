@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MatButtonModule } from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
 import { SliderEventosComponent } from './components/slider-eventos/slider-eventos.component';
+import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
 
 
 

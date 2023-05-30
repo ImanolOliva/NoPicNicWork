@@ -5,6 +5,7 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { CervezasComponent } from './components/cervezas/cervezas.component';
 import { ContactanosComponent } from './pages/contactanos/contactanos.component';
 import { EventosCulturalesComponent } from './pages/eventos-culturales/eventos-culturales.component';
+import { BebidasComponent } from './pages/bebidas/bebidas.component';
 
 const routes: Routes = [
 

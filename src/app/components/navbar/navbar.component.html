@@ -1,9 +1,23 @@
-<div class="contenedor">
-    <nav>
-            <a routerLink="/cervezas" class="nav-link" >BEBIDAS</a>
-            <a routerLink="/eventosCulturales" class="nav-link">EVENTOS CULTURALES</a>
-            <a routerLink="/contacto" class="nav-link">CONTACTANOS</a>   
-            <a routerLink="/nosotros"><img src="../../../assets/photos/logo.px.jpg" alt=""></a>
+<nav class="navbar navbar-expand-md navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/nosotros"><img src="../../../assets/photos/logo.px.jpg" alt="NoPicNic"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/cervezas" [class.active]="isLinkActive['cervezas']" (touchstart)="onLinkTouchStart('cervezas')" (touchend)="onLinkTouchEnd('cervezas')" (mouseenter)="onLinkHover('cervezas')" (mouseleave)="onLinkHoverEnd('cervezas')" >Cervezas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/eventosCulturales" [class.active]="isLinkActive['eventosCulturales']" (touchstart)="onLinkTouchStart('eventosCulturales')" (touchend)="onLinkTouchEnd('eventosCulturales')" (mouseenter)="onLinkHover('eventosCulturales')" (mouseleave)="onLinkHoverEnd('eventosCulturales')">Eventos Culturales</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contacto" [class.active]="isLinkActive['contacto']" (touchstart)="onLinkTouchStart('contacto')" (touchend)="onLinkTouchEnd('contacto')" (mouseenter)="onLinkHover('contacto')" (mouseleave)="onLinkHoverEnd('contacto')">Contacto</a>
+        </li>
+      </div>     
+    </div>
+  </nav>
 
-    </nav>
-</div>
+  <!-- ... -->
+  <!-- ... -->
+  

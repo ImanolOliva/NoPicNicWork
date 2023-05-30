@@ -11,8 +11,8 @@ import { ContactanosComponent } from './contactanos/contactanos.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import { HorarioAtencionComponent } from '../components/horario-atencion/horario-atencion.component';
 import { EventosCulturalesComponent } from './eventos-culturales/eventos-culturales.component';
-import { NgbModule} from '@ng-bootstrap/ng-bootstrap'
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { ScrollTopComponent } from '../components/scroll-top/scroll-top.component';
 
 
 
@@ -25,7 +25,8 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent,
     ContactanosComponent,
     HorarioAtencionComponent,
-    EventosCulturalesComponent
+    EventosCulturalesComponent,
+    ScrollTopComponent
   ],
   imports: [
     CommonModule,

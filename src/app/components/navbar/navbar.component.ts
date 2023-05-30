@@ -7,5 +7,22 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
-  show: boolean=true;;
+  isLinkActive: { [key: string]: boolean } = {};
+
+  onLinkTouchStart(link: string): void {
+    this.isLinkActive[link] = true;
+  }
+
+  onLinkTouchEnd(link: string): void {
+    this.isLinkActive[link] = false;
+  }
+
+  onLinkHover(link: string): void {
+    this.isLinkActive[link] = true;
+  }
+
+  onLinkHoverEnd(link: string): void {
+    this.isLinkActive[link] = false;
+  }
 }
+
