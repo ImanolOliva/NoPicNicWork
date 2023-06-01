@@ -14,7 +14,8 @@ const routes: Routes = [
   {path:'home' , component:HomeComponent},
   {path:'contacto',component:ContactanosComponent},
   {path:'eventosCulturales',component:EventosCulturalesComponent},
-  {path:'',component:NosotrosComponent}
+  {path:'',component:NosotrosComponent, pathMatch:'full'},
+  {path:'**',component:NosotrosComponent, pathMatch:'full'}
 ];
 
 @NgModule({
