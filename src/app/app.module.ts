@@ -16,7 +16,7 @@ import { ScrollTopComponent } from './components/scroll-top/scroll-top.component
   declarations: [
     AppComponent,
     NavbarComponent,
-    SliderEventosComponent,
+    SliderEventosComponent
   ],
   imports: [
     BrowserModule,

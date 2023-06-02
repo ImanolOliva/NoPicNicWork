@@ -1,0 +1,13 @@
+.dropdown-container{
+    justify-content:center;
+    align-items: center;  
+    
+}
+.dropdown-container i{
+    font-size: 25px;
+}
+
+.list li{
+    list-style: none;
+    font-size: 1rem;
+}

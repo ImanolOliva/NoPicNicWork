@@ -13,6 +13,8 @@ import { HorarioAtencionComponent } from '../components/horario-atencion/horario
 import { EventosCulturalesComponent } from './eventos-culturales/eventos-culturales.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { ScrollTopComponent } from '../components/scroll-top/scroll-top.component';
+import { DireccionComponent } from '../components/direccion/direccion.component';
+import { LlamanosComponent } from '../components/llamanos/llamanos.component';
 
 
 
@@ -26,7 +28,10 @@ import { ScrollTopComponent } from '../components/scroll-top/scroll-top.componen
     ContactanosComponent,
     HorarioAtencionComponent,
     EventosCulturalesComponent,
-    ScrollTopComponent
+    ScrollTopComponent,
+    DireccionComponent,
+    LlamanosComponent
+    
   ],
   imports: [
     CommonModule,

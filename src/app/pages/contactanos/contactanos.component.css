@@ -1,41 +1,37 @@
-*{
-        box-sizing: border-box;
-        flex-wrap: wrap;  
-}
 
 .container{
-    display:flex;
+    display:flex;  
+    flex-wrap: wrap;  
+}
+
+.botones{
     justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.sub-container button a{
+    display: flex;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    
 }
 .sub-container{
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
-    padding: 15px;
-
+    text-align: center;
 }
-.llamanos p{
-    padding: 6px;
+.sub-container button{
+    padding: 5px;
 }
-.espacio{
-    padding: 100px;
-}
-.direccion p{
-    padding: 6px;
-}
-.mostrar{
-    display: block;
-    padding: 16px;
-    text-decoration: none;
-    font-size: 1rem;
+.redes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .redes img{
     width: 60px;
     height:60px;
     padding:0px;
-}
-.redes{
-
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
