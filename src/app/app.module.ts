@@ -7,8 +7,7 @@ import { HomeModule } from './pages/home.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MatButtonModule } from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
-import { SliderEventosComponent } from './components/slider-eventos/slider-eventos.component';
-import { ScrollTopComponent } from './components/scroll-top/scroll-top.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 
 
@@ -16,7 +15,7 @@ import { ScrollTopComponent } from './components/scroll-top/scroll-top.component
   declarations: [
     AppComponent,
     NavbarComponent,
-    SliderEventosComponent
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

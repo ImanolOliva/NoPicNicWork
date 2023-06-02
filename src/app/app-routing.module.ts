@@ -6,6 +6,7 @@ import { CervezasComponent } from './components/cervezas/cervezas.component';
 import { ContactanosComponent } from './pages/contactanos/contactanos.component';
 import { EventosCulturalesComponent } from './pages/eventos-culturales/eventos-culturales.component';
 import { BebidasComponent } from './pages/bebidas/bebidas.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const routes: Routes = [
 
@@ -15,7 +16,7 @@ const routes: Routes = [
   {path:'contacto',component:ContactanosComponent},
   {path:'eventosCulturales',component:EventosCulturalesComponent},
   {path:'',component:NosotrosComponent, pathMatch:'full'},
-  {path:'**',component:NosotrosComponent, pathMatch:'full'}
+  {path:'**',component:NotFoundComponent, pathMatch:'full'}
 ];
 
 @NgModule({
